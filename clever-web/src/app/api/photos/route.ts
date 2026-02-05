@@ -54,7 +54,7 @@ export async function GET(req: Request) {
 
   const photos = json.photos.map((p) => ({
     id: p.id,
-    thumbUrl: p.src.small,
+    thumbUrl: p.src.medium,
     alt: p.alt || "Photo",
     avg_color: p.avg_color,
     photographer: p.photographer,

@@ -117,7 +117,7 @@ export default function DashboardClient() {
     if (next === "disliked") toast.danger("Disliked an Image", 3000);
   }
 
-  const skeletonCount = useMemo(() => 2, []);
+  const skeletonCount = useMemo(() => 10, []);
 
   if (checkingAuth) {
     return <main className={styles.page} />;

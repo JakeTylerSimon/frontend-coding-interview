@@ -1,14 +1,15 @@
-.page {
-  min-height: 100vh;
-  background: #ffffff;
-  padding: 24px 0 40px;
-}
-
 .container {
   width: 100%;
   max-width: 420px;
   margin: 0 auto;
-  padding: 0 28px;
+  padding: 24px 0px;
+}
+
+/* Mobile spacing */
+@media (max-width: 480px) {
+  .container {
+    padding: 36 34px;
+  }
 }
 
 
