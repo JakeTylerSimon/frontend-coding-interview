@@ -1,0 +1,76 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoWrap {
+  display: grid;
+  margin-bottom: 24px;
+}
+
+.title {
+  margin-bottom: 40px;
+  margin-top: 0;
+  color: #111827;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.form {
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelText {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1; 
+  letter-spacing: 0;
+  margin-bottom: 11px;;
+  color: #111827;
+}
+
+.passwordRow {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot {
+  color: #0075EB;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: right;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.errorText {
+  margin: 12px 0 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #dc2626;
+}

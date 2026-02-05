@@ -1,0 +1,32 @@
+.button {
+  width: 319px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 13px 0;
+  margin-top: 24px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+
+  user-select: none;
+}
+
+.primary {
+  background: #0075eb;
+  color: #ffffff;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
