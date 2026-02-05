@@ -62,12 +62,10 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
       const id = uid();
       setToast({ id, message, variant, visible: true });
 
-      // Start hide animation after duration
       hideTimerRef.current = window.setTimeout(() => {
         setToast((t) => (t ? { ...t, visible: false } : null));
       }, durationMs);
 
-      // Remove from DOM after animation finishes (match CSS duration)
       cleanupTimerRef.current = window.setTimeout(() => {
         setToast(null);
       }, durationMs + 220);
@@ -93,7 +91,6 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
     <ToastContext.Provider value={api}>
       {children}
 
-      {/* Toast UI */}
       {toast && (
         <div
           className={[

@@ -3,21 +3,16 @@
   right: 20px;
   bottom: 20px;
   z-index: 9999;
-
   max-width: min(320px, calc(100vw - 40px));
   padding: 12px 14px;
   border-radius: 10px;
-
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 13px;
   line-height: 1.15;
-
   background: rgba(17, 24, 39, 0.92);
   color: #ffffff;
-
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-
   opacity: 0;
   transform: translateY(10px);
   will-change: transform, opacity;

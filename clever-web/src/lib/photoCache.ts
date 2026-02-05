@@ -3,7 +3,6 @@ import type { PhotoItem } from "@/lib/types";
 const PHOTOS_CACHE_KEY = "ciweb.photos.cache.v1";
 const RATINGS_KEY = "ciweb.photos.ratings.v1";
 
-// Keep cached photos for 10 minutes client-side.
 const PHOTOS_TTL_MS = 10 * 60 * 1000;
 
 type PhotosCachePayload = {
